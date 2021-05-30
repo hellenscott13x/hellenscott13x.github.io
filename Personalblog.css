@@ -3,11 +3,12 @@
 
 /*fonts*/
 .p {
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: normal;
-   font-size: 14px;
-   color: black;
-}
+   	font-family: Arial, Helvetica, sans-serif;
+   	font-weight: normal;
+   	font-size: 14px;
+   	color: black;
+      }
+
 .h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold; 
@@ -15,26 +16,25 @@
     color: #666666;
 }
 .h2 {
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: : bold; 
-        font-size: 30px;
-        color: #666666;
-}
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: : bold; 
+    font-size: 30px;
+    color: #666666;}
       
 .a {
 	font-family: Arial, Helvetica, sans-serif; 
 	font-weight: normal;
-   	font-size: 14px;
-  	color: #666666;
-   	 }
+    font-size: 14px;
+    color: #666666;
+    }
 	.a: visited {
-        color: purple;
-}
+        color: purple;}
 
 .a hover {
   color: hotpink;
 }
 
+/*homepage button*/
 .btn {
 	background-color: #008CBA; /*blue*/
   	border: none;
@@ -53,34 +53,26 @@
   	color: white;
 }
 
-.flexContainer {
-	display: flex;
-	width: 100%;
-	margin: auto;
-	flex-direction: row;
-	align-items: flex-start;
-	justify-content: flex-start;
-	color: #f2f2f2;
-}
+/*header section*/
 
 .header {
 	display: inline-flex;
-   	width: 100%;
-   	height: 150px;
-   	margin: auto;
-   	background-color: #ffb6c1;
-   	font-family: arial;
+	flex-direction: column;
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	background-color: #ffb6c1;
 }
 
 .logo {
 	display: inline-flex;
 	position: left; 
-	width: 100px;
-	height: 100px;
+	width: 10px;
+	height: 10px;
 	margin: auto;
-	background-image: tbd;
-	border: 3px;
-	border-color: #f2f2f2
+	border: 5px;
+	border-color: grey;
+	background-color: grey;
 }
 
 /*vertical*/
@@ -91,6 +83,7 @@
   	font-size: 16px;
   	border: none;
   	cursor: pointer;
+  	float: right;
 }
 
 .navmenu {
@@ -108,39 +101,58 @@
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   	z-index: 1;
   }
-
   	.navmenu-content a{
   		color: black;
   		padding: 12px 16px
   		text-decoration: none;
   		display: block;
-  		}
+  	}
   	.navmenu:hover .navmenu-content {
   		display: block;
-  		}
+  	}
   	.navmenu:hover .dropbtn {
-  		background-color: #3e8e41;
-		}
+  background-color: #3e8e41;
+}
+
+/*containers*/
+
+.flexContainer {
+	display: flex;
+	display: box;
+	width: 100%;
+	margin: auto;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	color: #f2f2f2;
+}
+
 .hompageContainer {
 	display: inline-grid;
 	width: 100%;
 	margin: auto;
 	grid-template-columns: 500px 500px; 
+	grid-template-rows: 500px;
 	grid-gap: 5px;
 	grid-template-areas: "left" "right"; 
-	justify-content: stretch;
+	
 }
 
 .homepageText {
 	display: grid;
 	grid-area: left;
+	grid-column-start: 1;
+	grid-column-end: 2;
 	background-color: #f2f2f2
+	justify-content: start;
 }
 
 .homepageImage {
 	display: grid;
 	grid-area: right;
-	background-color: #f2f2f2
+	grid-column-start: 2;
+	grid-column-end: 3;
+	justify-content: end;
 	}
 
 .footer {
@@ -149,18 +161,18 @@
 	height: 150px;
 	margin: auto;
 	background-color: #ffb6c1;
-	font-family: arial; 
+
 }
 .footer li {
 	display: inline-block;
 	font-size: 14px;
 	padding: 14px;
-	font-family: arial; 
 }
 
 /*image classes*/
 
 /*floats image right and is a larger image within the template*/
+
 .newImg1 {
 float: right;
 padding: .0em 0em;
@@ -178,6 +190,7 @@ margin-bottom: 1.154em;
 }
 
 /*floats image to the right and is smaller image within the template*/
+
 .newImg2 {
 float: right;
 padding: .0em 0em;
@@ -195,6 +208,7 @@ margin-bottom: 1.154em;
 }
 
 /*floats image to the left and is smaller image within the template*/
+
 .newImg3 {
 float: left;
 padding: .0em 0em;
@@ -212,6 +226,7 @@ margin-bottom: 1.154em;
 }
 
 /*floats image to left and is larger image within the template*/
+
 .newImg4 {
 float: left;
 padding: .0em 0em;
@@ -229,6 +244,7 @@ margin-bottom: 1.154em;
 }
 
 /* applies to GIF, PNG, JPGs images; avoids blurry edges */
+
 .img { 
     image-rendering: optimizeSpeed;             
     image-rendering: -moz-crisp-edges;         
@@ -237,10 +253,12 @@ margin-bottom: 1.154em;
     image-rendering: optimize-contrast;        
     -ms-interpolation-mode: nearest-neighbor;  
  }
+
  .banner {
  height: 70px;
  width: 100%;
  }
+
  .banner img{
  width: 100%;
  height: 100%;
