@@ -71,7 +71,7 @@
 
 .logo {
 	display: inline-flex;
-	position: absolute; top: 12pt; left: 24pt; z-index: 100; 
+	position: left; 
 	width: 10px;
 	height: 10px;
 	margin: auto;
@@ -97,7 +97,7 @@
 
 .navmenu-content {
 	display: none;
-	position: absolute;
+	position: right;
 	background-color:#f9f9f9;
 	min-width: 100px;
 	width: 100%;
@@ -122,8 +122,7 @@
 	display: inline-grid;
 	width: 100%;
 	margin: auto;
-	grid-template-columns: 200px 200px; 
-	grid-template-rows: repeat(2, auto);
+	grid-template-columns: 500px 500px; 
 	grid-gap: 5px;
 	grid-template-areas: "left" "right"; 
 	justify-content: stretch;
@@ -137,7 +136,7 @@
 
 .homepageImage {
 	display: grid;
-	grid-area: "right";
+	grid-area: right;
 	background-color: #f2f2f2
 	}
 
@@ -153,6 +152,7 @@
 	display: inline-block;
 	font-size: 14px;
 	padding: 14px;
+	font-family: arial; 
 }
 
 /*image classes*/
