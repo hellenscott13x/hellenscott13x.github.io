@@ -72,11 +72,11 @@
 	border-color: grey;
 	box-sizing: border-box; 
 	height: 100px;
-	width; 350px
+	width: 350px;
 	padding: 0;
-    background-color: #F0EDEC;
-    border-radius: 20px;
-    box-shadow: -2px 7px 14px -5px rgb(56 56 56 / 58%);
-    cursor: pointer;
-    margin-bottom: 40px;
+    	background-color: #F0EDEC;
+    	border-radius: 20px;
+    	box-shadow: -2px 7px 14px -5px rgb(56 56 56 / 58%);
+    	cursor: pointer;
+    	margin-bottom: 40px;
 }
