@@ -19,12 +19,10 @@
     order: 0;
 }
 
-.flexContainer a {
-	color: #055BAE;
-}
 
 .flexContainer p, .flexContainer li, .flexContainer td {
 	font-size: 14px;
+	font-family: arial, helvetica, sans-serif; 
 }
 
 /*design 2*/
