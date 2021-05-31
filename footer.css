@@ -9,9 +9,8 @@
 	width: 100%;
 	height: 150px;
 	margin: auto;
-	background-color: #ffb6c1;
-	
-
+	background-color: ##581845;
+	color: white;
 }
 .footer ul {
 	display: inline-flex;
