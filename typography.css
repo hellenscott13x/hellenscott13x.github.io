@@ -25,26 +25,61 @@ body {
   }
 
 .h2 {
-	font-family: sans-serif;
-    font-weight: : bold; 
-    font-size: 30px;
-    color: black;}
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+  }
+
+.homesection1 h2 {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+    position: ;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+  }
     
 .h3 {
   font-family: sans-serif;
-    font-weight: : bold; 
+    font-weight: bold; 
     font-size: 20px;
     color: black;}
+
+.homesection1 h3 {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    position: ;
+    font-size: 20px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+  }
       
 .a {
-	font-family: sans-serif; 
-	font-weight: normal;
-    font-size: 1.1em;
-    color: black;
+font-family: sans-serif; 
+font-weight: normal;
+  font-size: 1.1em;
+  color: black;
     }
-	.a: visited {
-        color: purple;
-	}
 
 .a hover {
   color: hotpink;
