@@ -6,7 +6,7 @@
 	display: flex;
 	width: 100%;
 	margin: auto;
-	flex-direction: column;
+	flex-direction: row;
 	font-family: sans-serif;
 	order: 0;
 	border: 5px;
@@ -52,6 +52,7 @@
 
 .homepageText {
 	display: flex;
+	flex-direction: row; 
 	grid-area: mainleft;
 	background-color: #d3d3d3
 	width: auto;
@@ -61,6 +62,7 @@
 
 .homepageImage {
 	display: flex;
+	flex-direction: row;
 	grid-area: mainright;
 	width: auto;
 	border: 5px;
