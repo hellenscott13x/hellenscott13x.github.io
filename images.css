@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+/*image classes*/
+
+/*floats image right and is a larger image within the template*/
+
+.newImg1 {
+float: right;
+padding: .0em 0em;
+flex-wrap: nowrap !important;
+-moz-box-ordinal-group: 1;
+order: 0;
+-moz-box-flex: 1;
+flex: 1 1 60%;
+align-self: auto;
+background: none repeat scroll 0% 0%;
+width: 60%;
+max-width: 100%;
+margin-left: 2.692em;
+margin-bottom: 1.154em;
+}
+
+/*floats image to the right and is smaller image within the template*/
+
+.newImg2 {
+float: right;
+padding: .0em 0em;
+flex-wrap: nowrap !important;
+-moz-box-ordinal-group: 1;
+order: 0;
+-moz-box-flex: 1;
+flex: 1 1 30%;
+align-self: auto;
+background: none repeat scroll 0% 0%;
+width: 40%;
+max-width: 100%;
+margin-left: 2.692em;
+margin-bottom: 1.154em;
+}
+
+/*floats image to the left and is smaller image within the template*/
+
+.newImg3 {
+float: left;
+padding: .0em 0em;
+flex-wrap: nowrap !important;
+-moz-box-ordinal-group: 1;
+order: 0;
+-moz-box-flex: 1;
+flex: 1 1 30%;
+align-self: auto;
+background: none repeat scroll 0% 0%;
+width: 40%;
+max-width: 100%;
+margin-right: 2.692em;
+margin-bottom: 1.154em;
+}
+
+/*floats image to left and is larger image within the template*/
+
+.newImg4 {
+float: left;
+padding: .0em 0em;
+flex-wrap: nowrap !important;
+-moz-box-ordinal-group: 1;
+order: 0;
+-moz-box-flex: 1;
+flex: 1 1 60%;
+align-self: auto;
+background: none repeat scroll 0% 0%;
+width: 60%;
+max-width: 100%;
+margin-right: 2.692em;
+margin-bottom: 1.154em;
+}
+
+/* applies to GIF, PNG, JPGs images; avoids blurry edges */
+
+.img { 
+    image-rendering: optimizeSpeed;             
+    image-rendering: -moz-crisp-edges;         
+    image-rendering: -o-crisp-edges;            
+    image-rendering: -webkit-optimize-contrast; 
+    image-rendering: optimize-contrast;        
+    -ms-interpolation-mode: nearest-neighbor;  
+ }
+
+ .banner {
+ height: 70px;
+ width: 100%;
+ }
+
+ .banner img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ }
