@@ -3,7 +3,7 @@
 
 /*general navigation*/
 
-@media only screen and (min-width: 2000px){
+@media only screen and (max-width: 3000px){
 .navContainer {
 	display: flex; 
 	flex-direction: column; 
@@ -50,7 +50,7 @@
 }
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (max-width: 3000px) {
   .navigation {
     display: -webkit-box;
   	display: -moz-box;
