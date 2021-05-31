@@ -30,12 +30,13 @@
 
 /*design 2*/
 
-@media screen and (min-width: 0) and (max-width: 1835px)  {
+@media all and (max-width: 1239px)  {
 	.homeSection1 {
 		display:flex;
 		flex-direction: column;
 		height: 500px;
-		width: max-width;}
+		width: max-width;
+	}
 
 		.homeSection1 {
 		background-image: url("https://blogmain.s3-us-west-1.amazonaws.com/images/A_tower_of_used_books_-_8444.jpeg");
@@ -48,8 +49,15 @@
 		text-align: center;
 	}
 
-@media screen and (min-width: 0px) and (max-width: 1835px) {
-.Container {
+.container {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+		margin: auto;	
+		background-color: #f2f2f2;
+	}
+	
+.gridContainer {
       display: inline-flex;
       flex-direction: row;
       width: 100%;
@@ -70,3 +78,4 @@
 		#four {
 		grid-area: right;
 		}
+}
