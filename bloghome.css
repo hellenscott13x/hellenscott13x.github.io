@@ -20,34 +20,38 @@
     order: 0;
 }
 
+.flexContainer a {
+	color: #055BAE;
+}
+
 .flexContainer p, .flexContainer li, .flexContainer td {
 	font-size: 14px;
 }
 
 /*design 2*/
 
-@media all and (min-width: 1240px) {
+@media screen and (min-width: 0) and (max-width: 1835px) and (orientation: portrait) {
 	.homeSection1 {
 		display:flex;
-		flex-direction: row;
-		background-image:"https://blogmain.s3-us-west-1.amazonaws.com/images/A_tower_of_used_books_-_8444.jpeg";
+		flex-direction: column;
+		background-image: "https://blogmain.s3-us-west-1.amazonaws.com/images/A_tower_of_used_books_-_8444.jpeg";
 		height: 500px;
 		width: max-width;
 		background-repeat: no-repeat;
-    		background-size: cover;
-    		justify-content: center; 
+    	background-size: cover;
+    	justify-content: center; 
 	}
 
 	.homeSection1 p {
 		text-align: center;
 	}
 
-@media all and (min-width: 1240px) {
+@media screen and (min-width: 0px) and (max-width: 1835px) {
 .Container {
       display: inline-flex;
-      flex-direction: column;
+      flex-direction: row;
       width: 100%;
-      margin: auto;	
+		margin: auto;	
       grid-template-columns: auto auto auto;
       grid-template-rows: 400px;
       grid-template-areas: 
@@ -66,17 +70,19 @@
 		}
 }
 
+
 .card1 {
-	display: inline;
+	display: block;
 	border: 2px;
 	border-color: grey;
 	box-sizing: border-box; 
 	height: 100px;
-	width: 350px;
+	width; 350px
 	padding: 0;
-    	background-color: #F0EDEC;
-    	border-radius: 20px;
-    	box-shadow: -2px 7px 14px -5px rgb(56 56 56 / 58%);
-    	cursor: pointer;
-    	margin-bottom: 40px;
+    background-color: #F0EDEC;
+    border-radius: 10px;
+    box-shadow: -2px 7px 14px -5px rgb(56 56 56 / 58%);
+    cursor: pointer;
+    margin-bottom: 40px;
 }
+
