@@ -23,7 +23,7 @@
 	grid-template-columns: 500px 500px; 
 	grid-template-rows: 500px;
 	grid-gap: 5px;
-	grid-template-areas: "left" "right"; 
+	grid-template-areas: left right; 
 }
 
 .homepageText {
@@ -41,7 +41,20 @@
 	grid-column-start: 1;
 	grid-column-end: 3;
 	justify-content: end;
-	}
+}
+
+	.homepageImage img {
+			float: right;
+			padding: .0em 0em;
+			flex-wrap: nowrap;
+			flex: 1 1 60%;
+			align-self: auto;
+			background: none repeat scroll 0% 0%;
+			width: 60%;
+			max-width: 100%;
+			margin-right: 2.692em;
+			margin-bottom: 1.154em;
+			}
 
 /*footer*/
 .footer {
