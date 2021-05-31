@@ -1,0 +1,171 @@
+@charset: "UTF-8"; 
+/*CSS Document*/
+
+/*general navigation*/
+
+.navContainer {
+	background-color: #f2f2f2;
+	margin-bottom: .286em;
+	text-align: right;
+	padding-right: 1.923em;
+	padding-left: 1.923em;
+	padding-top: .857em;
+	min-height: 1.5em;
+}
+
+.navContainer p {
+	background-color: #f2f2f2;
+	margin-bottom: .655em !important;
+	font-weight: 500;
+	font-size: 22px !important;
+	margin-top: 0em !important;
+}
+
+.navContainerText {
+	font-weight: 300;
+	font-size: 18px !important;
+	margin-right: 1.5em;
+	color: #333333;
+}
+
+.navigation {
+ 	list-style: none;
+ 	margin-left: 0em;
+ 	margin-bottom: .286em;
+ 	background: #f2f2f2;
+ 	padding-top:10px;
+ 	padding-bottom: 10px;
+ 	padding-left: 3.857em;
+ }
+	
+ .navigation a { 
+    text-align: center; 
+    padding-left: 25px;
+    font-weight: 500;
+}
+
+.navigation li {
+	flex-grow: 0;
+}
+
+@media all and (min-width: 1240px) {
+  .navigation {
+    display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+  	justify-content: space-between;
+  	padding-top: 10px;
+  	padding-bottom: 10px; 
+  	padding-left: 3.857em;
+  	padding-right: 1.714em;
+  	  }
+}
+
+/*footer navigation*/ 
+
+.footer ul {
+	display: inline-flex;
+	font-size: 14px;
+	padding: 14px;
+}
+
+/*vertical nav option 1 in the header on main page*/
+.navbtn {
+	background-color: ##36454F; /*charcoal grey*/
+	font-color: #f8f8ff;
+	padding: 16px;
+  	font-size: 16px;
+  	border: none;
+  	cursor: pointer;
+  	float: right;
+}
+
+.navmenu-content {
+	display: block;
+	float: right;
+	background-color:#f9f9f9;
+	width: 150px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+  }
+  	.navmenu-content a{
+  		color: black;
+  		padding: 12px 16px
+  		text-decoration: none;
+  		display: block;
+  	}
+  	.navmenu:hover .navmenu-content {
+  		display: block;
+  	}
+  	.navmenu:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+/*vertical nav option 2*/
+
+/*could not get it to work
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.nav li {
+    	list-style-type: none;
+
+    float: right;
+}
+
+.nav li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+nav.li a:hover, .dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+}
+
+nav.li.navdropdown {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navdropdown-content {
+    display: block; 
+    float: right;
+    text-align: center;
+	list-style-type: none;
+    background-color: #f9f9f9;
+    width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navdropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.navdropdown-content a:hover {background-color: #f1f1f1}
+
+.navdropdown:hover .navdropdown-content {
+    display: block;
+
+}
+*/
