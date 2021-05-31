@@ -95,6 +95,42 @@
 	background-color: grey;
 }
 
+.header-nav {
+	text-align: right;
+}
+
+/*vertical nav*/
+.navbtn {
+	background-color: ##36454F; /*charcoal grey*/
+	font-color: #f8f8ff;
+	padding: 16px;
+  	font-size: 16px;
+  	border: none;
+  	cursor: pointer;
+  	float: right;
+}
+
+.navmenu-content {
+	display: block;
+	float: right;
+	background-color:#f9f9f9;
+	width: 100%;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+  }
+  	.navmenu-content a{
+  		color: black;
+  		padding: 12px 16px
+  		text-decoration: none;
+  		display: block;
+  	}
+  	.navmenu:hover .navmenu-content {
+  		display: block;
+  	}
+  	.navmenu:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
 /*fonts*/
 .p {
@@ -152,45 +188,6 @@
   	background-color: #4CAF50; /* Green */
   	text-color: white;
 }
-
-/*vertical nav*/
-.navbtn {
-	background-color: ##36454F; /*charcoal grey*/
-	font-color: #f8f8ff;
-	padding: 16px;
-  	font-size: 16px;
-  	border: none;
-  	cursor: pointer;
-  	float: right;
-}
-
-.navmenu {
-	position: right;
-	display: inline-block;
-}
-
-.navmenu-content {
-	display: block;
-	float: right;
-	background-color:#f9f9f9;
-	width: 100%;
-	overflow: auto;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  	z-index: 1;
-  }
-  	.navmenu-content a{
-  		color: black;
-  		padding: 12px 16px
-  		text-decoration: none;
-  		display: block;
-  	}
-  	.navmenu:hover .navmenu-content {
-  		display: block;
-  	}
-  	.navmenu:hover .dropbtn {
-  background-color: #3e8e41;
-}
-
 /*image classes*/
 
 /*floats image right and is a larger image within the template*/
