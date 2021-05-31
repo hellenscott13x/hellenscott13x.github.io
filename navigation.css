@@ -8,7 +8,7 @@
 	flex-direction: column; 
 	background-color: #f2f2f2;
 	margin-bottom: .286em;
-	text-align: right;
+	text-align: left;
 	padding-right: 1.923em;
 	padding-left: 1.923em;
 	padding-top: .857em;
@@ -37,11 +37,11 @@
  	background: #f2f2f2;
  	padding-top:10px;
  	padding-bottom: 10px;
- 	padding-left: 3.857em;
+ 	padding-left: inherit;
  }
 	
  .navigation a { 
-    text-align: center; 
+    text-align: left; 
     padding-left: 25px;
     font-weight: 500;
 }
@@ -65,14 +65,6 @@
   	padding-left: 3.857em;
   	padding-right: 1.714em;
   	  }
-}
-
-/*footer navigation*/ 
-
-.footer ul {
-	display: inline;
-	font-size: 14px;
-	padding: 14px;
 }
 
 /*vertical nav option 1 in the header on main page*/
