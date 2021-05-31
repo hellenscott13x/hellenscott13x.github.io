@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*footer*/
+.footer {
+	display: flex;
+	grid-area: ft;
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	background-color: #ffb6c1;
+	
+
+}
+.footer li {
+	display: inline-flex;
+	font-size: 14px;
+	padding: 14px;
+}
