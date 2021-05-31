@@ -48,12 +48,19 @@
 		text-align: center;
 	}
 
-.container {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-margin: auto;	
-	background-color: #f2f2f2;
+.homecontainer {
+      	display: flex;
+     	flex-direction: row;
+      	width: 100%;
+	margin: auto;	
+	background-color: #666666;
+	border-style: ridge;
+	border-width: 5px; 
+	border-color: white;
+	}
+	
+	.homecontainer p {
+		color: white;
 	}
 	
 .gridContainer {
