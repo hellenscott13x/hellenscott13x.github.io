@@ -33,9 +33,9 @@
 	text-align: right;
 }
 
-/*vertical nav option 1
+/*vertical nav option 1*/
 .navbtn {
-	background-color: ##36454F; /*charcoal grey
+	background-color: ##36454F; /*charcoal grey*/
 	font-color: #f8f8ff;
 	padding: 16px;
   	font-size: 16px;
@@ -65,10 +65,10 @@
   	.navmenu:hover .dropbtn {
   background-color: #3e8e41;
 }
-*/
+
 
 /*vertical nav option 2*/
-
+/*couldnt get it to work, liked option 1 better
 .nav ul {
     list-style-type: none;
     margin: 0;
@@ -125,3 +125,4 @@ nav.li.navdropdown {
 .navdropdown:hover .navdropdown-content {
     display: block;
 }
+*/
