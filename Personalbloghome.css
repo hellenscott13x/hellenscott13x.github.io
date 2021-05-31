@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+/*containers*/
+
+.flexContainer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: auto;
+	justify-content: space-between;
+	align-content: flex-start;
+	align-items: stretch;
+}
+
+.flexContainer > * {
+	flex: 1 1 100%;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.flexContainer a {
+	color: #055BAE;
+}
+
+.flexContainer img {
+	max-width: 100% !important;
+	height: auto; 
+	verticle-align: middle; 
+	border: 0; 
+	-ms-interpolation-mode: bicubic; 
+}
+
+.flexContainer p, .flexContainer li, .flexContainer td {
+	font-size: 14px;
+}
+
+/*design 2*/
+
+@media all and (min-width: 1240px) {
+	.homeSection1 {
+		display:flex;
+		flex-direction: column;
+		background-image: https://blogmain.s3-us-west-1.amazonaws.com/images/A_tower_of_used_books_-_8444.jpeg;
+		height: 500px;
+		width: max-width;
+		background-repeat: no-repeat;
+    	background-size: cover;
+	}
+
+	.homeSection1 p {
+		text-align: center;
+	}
+
+
+
+@media all and (min-width: 1240px) {
+.Container {
+      display:grid;
+      width: 100%;
+		margin: auto;	
+      grid-template-columns: auto auto auto;
+      grid-template-rows: 400px;
+      grid-template-areas: 
+      "left" "center" "right";
+      justify-content: ;
+  }
+  		/*#one {
+  		grid-area: hd;
+ 		 }*/
+
+		#two {
+		grid-area: left;
+		}
+		#three {
+		grid-area: center;
+		}
+		#four {
+		grid-area: right;
+		}
+}
+
+.card1 {
+	display: block;
+	border: 2px;
+	border-color: grey;
+	box-sizing: border-box; 
+	flex-direction: column;
+	height: 
+	width; 350px
+	padding: 0;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -2px 7px 14px -5px rgb(56 56 56 / 58%);
+    cursor: pointer;
+    margin-bottom: 40px;
+}
