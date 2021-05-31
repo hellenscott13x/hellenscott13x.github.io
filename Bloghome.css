@@ -9,6 +9,8 @@
 	flex-direction: column;
 	font-family: sans-serif;
 	order: 0;
+	border: 5px;
+	border-color: #FFFFFF;
 }
 
 .flexContainer p, .flexContainer li, .flexContainer td {
@@ -53,12 +55,16 @@
 	grid-area: mainleft;
 	background-color: #d3d3d3
 	width: auto;
+	border: 5px;
+	border-color: #FFFFFF;
 }
 
 .homepageImage {
 	display: flex;
 	grid-area: mainright;
 	width: auto;
+	border: 5px;
+	border-color: #FFFFFF;
 	}
 		.homepageImage img {
 			float: right;
