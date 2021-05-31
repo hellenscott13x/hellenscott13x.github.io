@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+/*fonts*/
+
+html {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: black;
+}
+
+.p {
+   	font-family: sans-serif;
+   	font-weight: normal;
+   	font-size: 14px;
+   	color: black;
+    }
+
+.h1 {
+    font-family: sans-serif;
+    font-weight: bold; 
+    font-size: 40px;
+    color: black;
+  }
+
+.h2 {
+	font-family: sans-serif;
+    font-weight: : bold; 
+    font-size: 30px;
+    color: black;}
+    
+.h3 {
+  font-family: sans-serif;
+    font-weight: : bold; 
+    font-size: 20px;
+    color: black;}
+      
+.a {
+	font-family: sans-serif; 
+	font-weight: normal;
+    font-size: 14px;
+    color: black;
+    }
+	.a: visited {
+        color: purple;
+	}
+
+.a hover {
+  color: hotpink;
+}
