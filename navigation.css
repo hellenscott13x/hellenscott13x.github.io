@@ -4,6 +4,8 @@
 /*general navigation*/
 
 .navContainer {
+	display: flex; 
+	flex-direction: column; 
 	background-color: #f2f2f2;
 	margin-bottom: .286em;
 	text-align: right;
@@ -68,13 +70,14 @@
 /*footer navigation*/ 
 
 .footer ul {
-	display: inline-flex;
+	display: inline;
 	font-size: 14px;
 	padding: 14px;
 }
 
 /*vertical nav option 1 in the header on main page*/
 .navbtn {
+	display: inline;
 	background-color: ##36454F; /*charcoal grey*/
 	font-color: #f8f8ff;
 	padding: 16px;
