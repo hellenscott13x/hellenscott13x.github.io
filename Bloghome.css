@@ -4,13 +4,32 @@
 
 .flexContainer {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	margin: auto;
-	flex-direction: column;
-	font-family: sans-serif;
-	order: 0;
-	border: 5px;
-	border-color: #FFFFFF;
+	justify-content: space-between;
+	align-content: flex-start;
+	align-items: stretch;
+}
+
+.flexContainer > * {
+	flex: 1 1 100%;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.flexContainer a {
+	color: #055BAE;
+}
+
+.flexContainer img {
+	max-width: 100% !important;
+	height: auto; 
+	verticle-align: middle; 
+	border: 0; 
+	-ms-interpolation-mode: bicubic; 
 }
 
 .flexContainer p, .flexContainer li, .flexContainer td {
@@ -19,8 +38,10 @@
 
 .container {
       display:grid;
+	width: 100%;
+	margin: auto;	
       grid-template-columns: auto auto;
-      grid-template-rows: 500px 500px;
+      grid-template-rows: 150px 600px 150px;
       grid-template-areas: 
       "hd hd"
       "mainleft mainright"
@@ -52,31 +73,27 @@
 
 .homepageText {
 	display: flex;
-	flex-direction: column; 
+	flex-direction: column;
 	grid-area: mainleft;
 	background-color: #d3d3d3
 	width: auto;
-	border: 5px;
-	border-color: #FFFFFF;
 }
 
 .homepageImage {
 	display: flex;
 	flex-direction: column;
 	grid-area: mainright;
-	width: auto;
-	border: 5px;
-	border-color: #FFFFFF;
+	max-width: 100%;
 	}
-		.homepageImage img {
-			float: right;
-			padding: .0em 0em;
-			flex-wrap: nowrap;
-			flex: 1 1 60%;
-			align-self: auto;
-			background: none repeat scroll 0% 0%;
-			width: 60%;
-			max-width: 100%;
-			margin-right: 2.692em;
-			margin-bottom: 1.154em;
-			}
+	
+	.homepageImage img {
+		float: right;
+		padding: .0em 0em;
+		flex-wrap: nowrap;
+		flex: 1 1 60%;
+		align-self: auto;
+		background: none repeat scroll 0% 0%;
+		max-width: 100%;
+		margin-right: 2.692em;
+		margin-bottom: 1.154em;
+	}
