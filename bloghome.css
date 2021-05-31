@@ -67,10 +67,10 @@
       width: 100%;
 	margin: auto;	
       grid-template-columns: auto auto auto;
-      grid-template-rows: 400px;
+      grid-template-rows: 700px;
       grid-template-areas: 
       "left" "center" "right";
-      justify-content: center;
+      justify-content: space-evenly;
   }  		
 
 		#two {
