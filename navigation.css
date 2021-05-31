@@ -3,6 +3,7 @@
 
 /*general navigation*/
 
+@media only screen and (min-width: 2000px){
 .navContainer {
 	display: flex; 
 	flex-direction: column; 
@@ -47,8 +48,9 @@
 .navigation li {
 	flex-grow: 0;
 }
+}
 
-@media (max-width: 1835px) {
+@media only screen and (min-width: 2000px) {
   .navigation {
     display: -webkit-box;
   	display: -moz-box;
@@ -63,7 +65,6 @@
   	padding-left: 3.857em;
   	padding-right: 1.714em;
   	  }
-}
 
 /*vertical nav option 1 in the header on main page*/
 .navbtn {
@@ -98,7 +99,7 @@
   	.navmenu:hover .dropbtn {
   background-color: #3e8e41;
 }
-
+}
 
 /*vertical nav option 2*/
 
