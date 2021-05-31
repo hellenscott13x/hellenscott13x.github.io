@@ -6,7 +6,6 @@
 .navContainer {
 	display: flex; 
 	flex-direction: column; 
-	background-color: #f2f2f2;
 	margin-bottom: .286em;
 	text-align: left;
 	padding-right: 1.923em;
@@ -16,7 +15,6 @@
 }
 
 .navContainer p {
-	background-color: #f2f2f2;
 	margin-bottom: .655em !important;
 	font-weight: 500;
 	font-size: 22px !important;
@@ -34,7 +32,6 @@
  	list-style: none;
  	margin-left: 0em;
  	margin-bottom: .286em;
- 	background: #f2f2f2;
  	padding-top:10px;
  	padding-bottom: 10px;
  	padding-left: inherit;
