@@ -144,6 +144,7 @@
 }
 
 .nav li {
+	list-style-type: none;
     float: right;
 }
 
@@ -160,12 +161,13 @@ nav.li a:hover, .dropdown:hover .dropbtn {
 }
 
 nav.li.navdropdown {
-    display: inline-block;
+    	list-style-type: none;
+	display: inline-block;
 }
 
 .navdropdown-content {
     display: block; 
-	list-style-type: none;
+    list-style-type: none;
     position: absolute;
     background-color: #f9f9f9;
     width: 130px;
