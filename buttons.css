@@ -2,6 +2,25 @@
 /*CSS Document*/
 
 /*homepage button*/
+.homesection btn {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  text-align: center;
+  background-color: #008CBA; /*blue*/
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+/*regular button*/
 .btn {
 	display: inline;
 	background-color: #008CBA; /*blue*/
@@ -11,7 +30,6 @@
   	padding: 15px 32px;
   	text-align: center;
   	text-decoration: none;
- 	display: inline-block;
 	width: fit-content;
 	height: fit-content;
   	font-size: 16px;
