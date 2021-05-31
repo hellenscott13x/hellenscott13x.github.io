@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+/*containers*/
+
+.flexContainer {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	flex-direction: column;
+	font-family: sans-serif;
+	order: 0;
+}
+
+.flexContainer p, .flexContainer li, .flexContainer td {
+	font-size: 14px;
+}
+
+.container {
+      display:grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: 400px 600px 400px;
+      grid-template-areas: 
+      "hd hd"
+      "mainleft mainright"
+      "ft ft";
+  }
+  		#one {
+  		grid-area: hd;
+ 		 }
+		#two {
+		grid-area: mainleft;
+		}
+		#three {
+		grid-area: mainright:;
+		}
+		#four {
+		grid-area: ft;
+		}
+/*
+.hompageContainer {
+	display: grid;
+	width: 100%;
+	margin: auto;
+	grid-template-columns: 500px 500px; 
+	grid-template-rows: 500px;
+	grid-gap: 5px;
+	grid-template-areas: left right; 
+}
+*/
+
+.homepageText {
+	display: flex;
+	grid-area: mainleft;
+	background-color: #d3d3d3
+	width: auto;
+}
+
+.homepageImage {
+	display: flex;
+	grid-area: mainright;
+	width: auto;
+	}
+		.homepageImage img {
+			float: right;
+			padding: .0em 0em;
+			flex-wrap: nowrap;
+			flex: 1 1 60%;
+			align-self: auto;
+			background: none repeat scroll 0% 0%;
+			width: 60%;
+			max-width: 100%;
+			margin-right: 2.692em;
+			margin-bottom: 1.154em;
+			}
