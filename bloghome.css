@@ -30,12 +30,12 @@
 	.homeSection1 {
 		display:flex;
 		flex-direction: row;
-		background-image: https://blogmain.s3-us-west-1.amazonaws.com/images/A_tower_of_used_books_-_8444.jpeg;
+		background-image:"https://blogmain.s3-us-west-1.amazonaws.com/images/A_tower_of_used_books_-_8444.jpeg";
 		height: 500px;
 		width: max-width;
 		background-repeat: no-repeat;
-    	background-size: cover;
-    	justify-content: center; 
+    		background-size: cover;
+    		justify-content: center; 
 	}
 
 	.homeSection1 p {
@@ -47,7 +47,7 @@
       display: inline-flex;
       flex-direction: column;
       width: 100%;
-		margin: auto;	
+      margin: auto;	
       grid-template-columns: auto auto auto;
       grid-template-rows: 400px;
       grid-template-areas: 
@@ -67,7 +67,7 @@
 }
 
 .card1 {
-	display: block;
+	display: inline;
 	border: 2px;
 	border-color: grey;
 	box-sizing: border-box; 
