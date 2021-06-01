@@ -100,7 +100,9 @@
   	font-size: 16px;
   	border: none;
   	cursor: pointer;
-  	float: right;
+  	height: 3em;
+  	width: 100px;
+  	z-index: 1;
 }
 
 .navmenu {
