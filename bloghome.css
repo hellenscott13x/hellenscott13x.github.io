@@ -48,6 +48,8 @@
 .homecontainer {
       	display: flex;
      	flex-direction: column;
+	position: relative;
+    	left: 15em;
       	width: 50em;
     	height: 15em;	
 	background-color: #666666;
