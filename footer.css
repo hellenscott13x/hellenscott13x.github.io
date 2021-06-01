@@ -14,7 +14,9 @@
 }
 .footer ul {
 	display: inline-flex;
-	font-size: 14px;
-	padding: 14px;
-	list-style-type: none;
+  	  flex-direction: row;
+  	  /* justify-content: flex-start; */
+  	  font-size: 14px;
+  	  padding: 10px;
+   	 text-align: center;
 }
