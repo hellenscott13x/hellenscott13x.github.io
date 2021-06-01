@@ -3,28 +3,36 @@
 
 /*fonts*/
 
-body {
+html {
     font-family: 'Arial', 'Helvetica', sans-serif;
     font-weight: normal;
-    font-size: 1.1em;
-    color: black;
+    font-size: 1em;
+    color: #ffffff;
 }
 
 .p {
    	font-family: sans-serif;
    	font-weight: normal;
-   	font-size: 1.1em;
-   	color: black;
+   	font-size: 1em;
+   	color: #ffffff;
     }
+
+.biline {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: .875em;
+    color: ;
+
+}    
 
 .h1 {
     font-family: sans-serif;
     font-weight: bold; 
-    font-size: 40px;
-    color: black;
+    font-size: 3.3em;
+    color: #ffffff;
   }
 
-.h2 {
+  .h2 {
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -33,11 +41,11 @@ body {
     margin-inline-end: 0px;
     font-weight: bold;
     font-family: sans-serif;
-    color: black;
+    color: #ffffff;
   }
 
-.homesection1 h2 {
-    top: 70%;
+.homesection1 .h2 {
+    top: 60%;
     width: 100%;
     text-align: center;
     position: ;
@@ -48,37 +56,26 @@ body {
     margin-inline-end: 0px;
     font-weight: bold;
     font-family: sans-serif;
-    color: white;
+    color: #ffffff;
   }
-    
+
 .h3 {
   font-family: sans-serif;
     font-weight: bold; 
     font-size: 20px;
-    color: black;}
-
-.homesection1 h3 {
-    top: 60%;
-    width: 100%;
-    text-align: center;
-    position: ;
-    font-size: 20px;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    font-family: sans-serif;
-    color: white;
+    color: #ffffff;
   }
       
 .a {
-font-family: sans-serif; 
-font-weight: normal;
-  font-size: 1.1em;
-  color: black;
+	font-family: sans-serif; 
+	font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
     }
+	.a: visited {
+        color: #3931E7;
+	}
 
 .a hover {
-  color: hotpink;
+  color: #E731E4;
 }
