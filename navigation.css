@@ -71,7 +71,7 @@
 .footer ul {
 	display: inline-flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	/*justify-content: flex-start;*/
 	font-size: 14px;
 	padding: 14px;
 }
