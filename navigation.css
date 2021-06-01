@@ -70,7 +70,7 @@
 
 .footer ul {
 	display: inline-flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: flex-start;
 	font-size: 14px;
 	padding: 14px;
@@ -104,12 +104,17 @@
 }
 
 .navmenu {
+	.navmenu {
 	display: flex;
-	flex-direction: column;
-	position: absolute;
-	right: 0px; 
-	width: 100px;
-	padding: 5px;
+    	flex-direction: column;
+    	margin: 1em;
+    	position: absolute;
+    	top: 40px;
+   	 right: 60px;
+   	 width: 100px;
+    	text-align: left;
+    	padding-right: 10px;
+}
 }
 .navmenu-content {
 	display: block;
