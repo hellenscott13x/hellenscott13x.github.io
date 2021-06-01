@@ -3,22 +3,23 @@
 
 /*homepage button*/
 
-.homesection btn {
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  text-align: center;
-  background-color: #008CBA; /*blue*/
-  border: none;
-  border-radius: 10px;
-  color: white;
-  padding: 15px 32px;
-  text-decoration: none;
-  width: fit-content;
-  height: fit-content;
-  font-size: 18px;
-  font-family: sans-serif;
-  z-index: 1;
+.homesectionbtn {
+    display: inline;
+    background-color: #008CBA;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 30em;
+    left: 40em;
+    z-index: 1;
 }
 
 /*regular button*/
