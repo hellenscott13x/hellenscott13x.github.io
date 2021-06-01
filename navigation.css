@@ -65,8 +65,33 @@
   	padding-left: 3.857em;
   	padding-right: 1.714em;
   	  }
+	
+/*footer navigation*/ 
+
+.footer ul {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	font-size: 14px;
+	padding: 14px;
+}
 
 /*vertical nav option 1 in the header on main page*/
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    border: 1px solid #555;
+}
+
+.nav li {
+    list-style-type: none;
+    float: right;
+}	
+
 .navbtn {
 	display: inline;
 	background-color: ##36454F; /*charcoal grey*/
@@ -78,6 +103,14 @@
   	float: right;
 }
 
+.navmenu {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 0px; 
+	width: 100px;
+	padding: 5px;
+}
 .navmenu-content {
 	display: block;
 	float: right;
