@@ -4,7 +4,7 @@
 /*homepage button*/
 
 .homesectionbtn, .homecontainerbtn {
-	display: inline;
+    display: inline;
     background-color: #008CBA;
     border: none;
     border-radius: 10px;
