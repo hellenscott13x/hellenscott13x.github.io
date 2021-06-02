@@ -3,8 +3,8 @@
 
 /*homepage button*/
 
-.homesectionbtn,.homecontainerbtn {
-    display: inline;
+.homesectionbtn, .homecontainerbtn {
+	display: inline;
     background-color: #008CBA;
     border: none;
     border-radius: 10px;
@@ -12,13 +12,16 @@
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
+    margin: auto;
     width: fit-content;
     height: fit-content;
+    max-width: 100%;
     font-size: 16px;
     font-family: sans-serif;
-    position: absolute;
-    top: 27em;
-    left: 40em;
+    /* position: absolute; */
+    top: 30%;
+    justify-content: center;
+    left: 45%;
     z-index: 1;
 }
 
