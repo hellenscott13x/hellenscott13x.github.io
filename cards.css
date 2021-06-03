@@ -30,34 +30,31 @@
 
 }
 
-.card1img  {
+.card1img  img {
 	width: 200px;
   	height: 200px;
 	width: 100%;
     	height: 100%;
-   	 object-fit: fill;
-   	 border-radius: 20px 20px 0 0;
+   	object-fit: fill;
+   	border-radius: 20px 20px 0 0;
 }
 
 .author {
 	display: flex;
-    padding-top: 20px;
-    align-items: center;
+  	padding-top: 20px;
+        align-items: center;
 }
 
 .authorImg {
 	width: 50px;
-    height: 50px;
-    margin-right: 10px;
+    	height: 50px;
+    	margin-right: 10px;
 }
 
 .author .authorImg img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-
-}
-
+   	 width: 100%;
+   	 height: 100%;
+   	 border-radius: 50%;
+   	 object-fit: cover;
 
 }
