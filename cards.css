@@ -1,7 +1,6 @@
  @charset "UTF-8"
 /*Css file*/
 
-@media all and (max-width: 3000px) {
 
 .card1 {
 	display: flex;
@@ -10,51 +9,50 @@
   	border-radius: 20px;
   	transition: 0.3s;
    	cursor: pointer;
-}
-
-.card1:hover {
- 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	
+	}
+	
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .card1Container {
   	padding: 15px 15px;
-  	width: 300px;
-   	height: 500px;
-   	background-color: #f2f2;
-   	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-   	border: 2px solid #f2f2f2;
+	width: 300px;
+	height: 500px;
+        background-color: #f2f2;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border: 2px solid #f2f2f2;
   	box-sizing: border-box; 
   	border-radius: 20px;
   	transition: 0.3s;
-    	cursor: pointer;
-
+        cursor: pointer;
 }
 
-.card1img  img {
+.card1img img {
 	width: 200px;
-  	height: 200px;
-	width: 100%;
-    	height: 100%;
-   	object-fit: fill;
+    	height: 200px;
+	max-width: 100%;
+    	object-fit: fill;
    	border-radius: 20px 20px 0 0;
 }
 
 .author {
 	display: flex;
-  	padding-top: 20px;
-        align-items: center;
+    padding-top: 20px;
+    align-items: center;
 }
 
 .authorImg {
 	width: 50px;
-    	height: 50px;
-    	margin-right: 10px;
+    height: 50px;
+    margin-right: 10px;
 }
 
 .author .authorImg img {
-   	 width: 100%;
-   	 height: 100%;
-   	 border-radius: 50%;
-   	 object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 
 }
