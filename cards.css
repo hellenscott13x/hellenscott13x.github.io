@@ -47,10 +47,12 @@
     	align-items: center;
 }
 
-.authorImg img {
+.authorImg {
 	width: 50px;
     	height: 50px;
     	margin-right: 10px;
+	z-index: -1; 
+	position: relative;
 }
 
 .author .authorImg img {
