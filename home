@@ -5,6 +5,7 @@
         <meta name="author" content="Sarah Bushman">
         <title>Hellen's Blog about Books</title>
         <link href="Personalblog.css" type="text/css" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/dbf9e12986.js" crossorigin="anonymous"></script>
     </head>
   <body>
       <div class="flexContainer">
@@ -57,12 +58,16 @@
               </div>
 </div>
     <div class="footer">
-        <p style="center">Something about copyright</p>
+        <p style="center">Created by Sarah Bushman, 2021</p>
       <ul class="navigation">
         <li><a href="about.html">About</a></li>
         <li><a href="https://sbushmanyoga.com">Yoga</a></li>
         <li><a href="https://sarahbushman.com">Photos</a></li>
       </ul>
+      <p style="center">Follow me on Social Media!</p>
+      <ul class="navigation">
+    <li><a href="https://www.instagram.com/hellenscott/"><i class="fas fa-camera fa-sm"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/sarah-bushman-7510a932/"><i class="fab fa-linkedin"></i></a></li>
   </div>
 </div>
 </body>
