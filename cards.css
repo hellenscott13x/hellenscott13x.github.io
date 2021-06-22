@@ -31,6 +31,8 @@
   	transition: 0.3s;
         cursor: pointer;
 	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
 
 .card1img img {
