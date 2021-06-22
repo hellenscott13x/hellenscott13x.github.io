@@ -10,6 +10,7 @@
 	justify-content: space-between;
 	align-content: flex-start;
 	align-items: stretch;
+	background-color: #f2f2f2;
 }
 
 .flexContainer > * {
@@ -20,7 +21,7 @@
 }
 .flexContainer p, .flexContainer li, .flexContainer td {
 	font-size: 14px;
-	font-family: arial, helvetica, sans-serif; 
+	font-family: arial, helvetica;	
 }
 
 /*design 2, book blog*/
