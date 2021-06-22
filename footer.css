@@ -9,15 +9,13 @@
 	width: 100%;
 	height: 100px;
 	margin: auto;
-	background-color: #f2f2f2;
+	background-color: ADD8E6;
 	color: #000000;
 }	
 .footer p {
 	text-align: center;
 	font: helvetica; 
 	font-size: 1.125em;
-	background-color: #f2f2f2;
-
 }
 
 .footer ul {
@@ -26,6 +24,5 @@
    	 /* justify-content: flex-start; */
     	font-size: 1em;
     	padding: 14px;
-	background-color: #f2f2f2;
     	text-align: center;
 }
