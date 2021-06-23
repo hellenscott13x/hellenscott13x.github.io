@@ -165,6 +165,29 @@
 		grid-area: right;
 		}
 
+/*the elements inside the container becomes responsive when the screen is 1600px or less*/
+@media screen and (max-width: 1600px){
+	.gridContainer {
+		display: flex; 
+		max-width: 100%;
+   		height: auto;
+   	 	margin: auto;
+	}
+}
+
+/*the elements inside the container stack when the screen size is 1400px or less*/
+@media screen and (max-width: 1400px){
+	.gridContainer {
+		display: flex; 
+		flex-direction: column; 
+   		width: 100%;
+    		max-width: 100%;
+   		height: auto;
+   	 	margin: auto;
+	}
+}
+
+
 .gridContainer1 {
 	display: inline-flex;
     	flex-direction: row;
