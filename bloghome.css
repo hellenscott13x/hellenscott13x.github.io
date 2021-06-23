@@ -228,6 +228,9 @@
 	margin-top: 3px;
 	background-color: #f2f2f2;
 }
+.sidebar p, H2{
+	color: black; 
+}
 
 .blogcontainer {
   	display: flex;
